@@ -170,7 +170,7 @@ def user_stats(df, city):
     print('-'*40)
 
 def get_reply():
-    """Takes input from user. Does not break until the input is yer or no"""
+    """Takes input from user. Does not break until the input is yes or no"""
     reply = input('\nWould you like to display 5 rows of raw data? Enter yes or no.\n')
     while reply.lower() not in ['yes','no']:
         print('\nPlease answer as yes or no')
@@ -183,6 +183,7 @@ def display_raw_data(df, city):
     i = 0
     j = 5
     while answer == 'yes':
+        """Loop runs until the answer is yes. Otherwise breaks and returns to the main function"""
         while i < j and i < len(df):
             print('      Record# : {}'.format(i))
             print('   Start Time : {}'.format(df.iloc[i,1]))
