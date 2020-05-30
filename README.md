@@ -13,7 +13,11 @@ Using this data, statistics about the usage are calculated and displayed to the 
 User can interactively select the city, month and day to be used for the statistics.
 
 ### Files used
-Include the files used
+The files used for this project are:
+    1. bikeshare.py
+    2. new_york_city.csv
+    3. chicago.csv
+    4. washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks for the udacity and instructors of the course.
