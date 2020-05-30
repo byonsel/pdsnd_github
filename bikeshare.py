@@ -197,7 +197,7 @@ def display_raw_data(df, city):
             i += 1
         j += 5
         answer = get_reply()
-    print('-'*40)
+    print('-'*20)
 
 def main():
     while True:
