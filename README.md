@@ -1,15 +1,23 @@
 ### Date created
-Include the date you created this project and README file.
+This project is created on **29th of May, 2020**
 
 ### Project Title
-Replace the Project Title
+**Bike Share Statistics**
 
 ### Description
-Describe what your project is about and what it does
+This project uses raw bike rental data of three cities:
+    * New York City
+    * Chicago
+    * Washington, DC
+Using this data, statistics about the usage are calculated and displayed to the user.
+User can interactively select the city, month and day to be used for the statistics.
 
 ### Files used
-Include the files used
+The files used for this project are:
+    1. bikeshare.py
+    2. new_york_city.csv
+    3. chicago.csv
+    4. washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thanks for the udacity and instructors of the course.
