@@ -170,6 +170,7 @@ def user_stats(df, city):
     print('-'*40)
 
 def get_reply():
+    """Takes input from user. Does not break until the input is yer or no"""
     reply = input('\nWould you like to display 5 rows of raw data? Enter yes or no.\n')
     while reply.lower() not in ['yes','no']:
         print('\nPlease answer as yes or no')
